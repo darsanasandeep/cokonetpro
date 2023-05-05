@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'cokonet.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blogs',
+        'NAME': 'blog',
         'USER' : 'root',
         'PASSWORD' : '',
         'HOST': 'localhost'
